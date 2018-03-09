@@ -1,0 +1,22 @@
+{
+  "name": "barrel-typescript",
+  "version": "0.0.1",
+  "description": "Automatically create TypeScript barrels for your project.",
+  "author": "Strom Kuo",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/Barrel-Typescript/i18n:barrel-typescript.addtsconfg": {
+      "message": "barrel-typescript:add-tsconfig"
+    },
+    "i18n:MAIN_MENU.package.title/Barrel-Typescript/i18n:barrel-typescript.about": {
+      "message": "barrel-typescript:about"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "Barrel-Typescript",
+    "width": 400,
+    "height": 300
+  }
+}
