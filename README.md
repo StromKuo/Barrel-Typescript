@@ -1,8 +1,10 @@
 # Barrel-TypeScript
 
+为 Cocos Creator 的 TypeScript 项目自动创建 Barrel 的插件，适用于 Cocos Creator 的插件系统。
+
 ## 插件简介
 
-- 为你的 TypeScript 项目自动创建 Barrel。方便管理你的 .ts 脚本资源。
+- 为 Cocos Creator 的 TypeScript 项目自动创建 Barrel。方便管理你的 .ts 脚本资源。
 
 - 实现上用了开源项目 [Barrelsby](https://github.com/bencoveney/barrelsby)。当你从 Creator 的工作流里创建文件、移动文件、删除文件、重命名文件时，更新 Barrel。即生成 `index.ts` 文件到 `项目根目录/assets` 路径下。方便 TypeScript 工程 import，不必再写路径。省去移动、重命名脚本资源时还要修改 import 路径的问题。
 
@@ -32,4 +34,6 @@ import {Foo} from "assets";
 
 ## 反馈
 
-如有问题或建议可以联系我：stromkuo@gmail.com
+如有问题或建议可以联系我或提交 issue.
+
+Email: stromkuo@gmail.com
