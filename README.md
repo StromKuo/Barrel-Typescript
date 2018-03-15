@@ -32,6 +32,10 @@ import {Foo} from "assets";
 
 - 不能用 `export default`，而 Creator 的 ts 脚本 模板，默认生成时就是 `export default`。
 
+- ts 所在脚本文件夹命名建议为小写开头，如 `项目根目录/assets/script/Xxx.ts`。
+
+    （因为命名为 `Script` 在使用中时发现了一些问题，比如 `assets/Script/Axx.ts` 编译正常但运行时发现无法正确引用，`assets/Script/Bxx.ts` 或 `assets/Script/Lib/Axx.ts` 则编译正常运行正常）
+
 ## 反馈
 
 如有问题或建议可以联系我或提交 issue.
