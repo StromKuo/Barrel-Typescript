@@ -45,7 +45,7 @@ module.exports = {
       // send ipc message to panel
       Editor.Ipc.sendToPanel('barrel-typescript', 'barrel-typescript:hello');
       var srcPath = Editor.url('packages://barrel-typescript/template/tsconfig.json');
-      var targetFile = Path.normalize(Path.join(Editor.projectInfo.path, "/tsconfig.json"));;
+      var targetFile = Path.normalize(Path.join(Editor.projectInfo.path, "/tsconfig.json"));
       try {
         Fs.copySync(srcPath, targetFile);
         Editor.log("Barrel-Typescript: TypeScript Configuration file has been copied to" + targetFile);
